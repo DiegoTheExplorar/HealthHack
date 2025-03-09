@@ -1,6 +1,5 @@
 Before you get started install
 
-`npm install firebase`
-`npm install @mediapipe/tasks-vision`
+`npm i framer-motion canvas-confetti @mediapipe/tasks-vision`
 
 
