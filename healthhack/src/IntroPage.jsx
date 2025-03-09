@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 const IntroPage = ({ onReady, exerciseType }) => {
   // Select the correct video based on exercise type
   const videoSource = exerciseType === 'thumbTapping' 
-    ? "/videos/thumb-tapping.mp4" 
-    : "/videos/fist-making.mp4";
+    ? "/thumb-tapping.mp4" 
+    : "/fist-making.mp4";
   
   const exerciseTitle = exerciseType === 'thumbTapping'
     ? "Thumb Tapping Exercise"
